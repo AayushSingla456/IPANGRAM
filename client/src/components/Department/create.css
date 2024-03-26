@@ -1,0 +1,36 @@
+.create-department-container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.create-department-container h3 {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.create-department-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-department-container input[type="text"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.create-department-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.create-department-container button:hover {
+  background-color: #0056b3;
+}

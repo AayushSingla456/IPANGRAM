@@ -1,0 +1,62 @@
+.department-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.department-list-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.department-list-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.department-list-container th,
+.department-list-container td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.department-list-container th {
+  background-color: #f2f2f2;
+}
+
+.department-list-container .actions-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.department-list-container .assign-employees-container {
+  display: flex;
+  align-items: center;
+}
+
+.department-list-container .assign-employees-container input[type="text"] {
+  margin-right: 5px;
+  padding: 5px;
+}
+
+.department-list-container .assign-employees-container button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.department-list-container .assign-employees-container button:hover {
+  background-color: #0056b3;
+}
+
+.department-list-container .assign-employees-container button[type="button"] {
+  background-color: #dc3545;
+}
+
+.department-list-container
+  .assign-employees-container
+  button[type="button"]:hover {
+  background-color: #c82333;
+}
