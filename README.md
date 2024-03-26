@@ -59,38 +59,3 @@ This is a full-stack application built with React.js for the frontend and Node.j
 1. Navigate to the client directory: `cd client`
 2. Install dependencies: `npm install`
 3. Start the development server: `npm start`
-
-## Code Structure
-
-client/
-├── src/
-│   ├── components/
-│   │   ├── Department/
-│   │   ├── Employee/
-│   │   ├── Header/
-│   │   ├── Login/
-│   │   └── Signup/
-│   ├── utils/
-│   │   └── api.js
-│   └── App.js
-└── package.json
-server/
-├── config/
-│   └── db.js
-├── controllers/
-│   ├── authController.js
-│   ├── departmentController.js
-│   └── employeeController.js
-├── middlewares/
-│   └── authMiddleware.js
-├── models/
-│   ├── Department.js
-│   └── Employee.js
-├── routes/
-│   ├── authRoutes.js
-│   ├── departmentRoutes.js
-│   └── employeeRoutes.js
-├── utils/
-│   └── errorHandler.js
-├── index.js
-└── package.json
